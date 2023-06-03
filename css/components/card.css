@@ -1,0 +1,35 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.cards h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card img {
+  height: 100px;
+  width: 100px;
+}
+
+.card {
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+  background-color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width:550px) {
+  .cards{
+    display: block;
+  }
+  .card {
+    margin: 20px auto;
+  }
+}
